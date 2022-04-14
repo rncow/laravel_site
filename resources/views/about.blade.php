@@ -7,7 +7,7 @@
     <div class="tp-fullscreen-container revolution">
         <div class="tp-fullscreen">
             <ul>
-                <li data-transition="fade"><img src="storage/images/art/slider-bg1.jpg" alt=""
+                <li data-transition="fade"><img src="{{ asset('storage/images/art/slider-bg1.jpg') }}" alt=""
                                                 data-bgposition="center top" data-bgfit="cover"
                                                 data-bgrepeat="no-repeat"/>
                     <div class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800"
@@ -20,7 +20,7 @@
                          data-easing="Sine.easeOut" data-endspeed="100"><a href="/contact" class="btn btn-large">Связаться</a>
                     </div>
                 </li>
-                <li data-transition="fade"><img src="storage/images/art/slider-bg2.jpg" alt=""
+                <li data-transition="fade"><img src="{{ asset('storage/images/art/slider-bg2.jpg') }}" alt=""
                                                 data-bgposition="center top" data-bgfit="cover"
                                                 data-bgrepeat="no-repeat"/>
                     <div class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800"
@@ -33,7 +33,7 @@
                          data-easing="Sine.easeOut" data-endspeed="100"><a href="/contact" class="btn btn-large">Связаться</a>
                     </div>
                 </li>
-                <li data-transition="fade"><img src="storage/images/art/slider-bg3.jpg" alt=""
+                <li data-transition="fade"><img src="{{ asset('storage/images/art/slider-bg3.jpg') }}" alt=""
                                                 data-bgposition="center top" data-bgfit="cover"
                                                 data-bgrepeat="no-repeat"/>
                     <div class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800"
@@ -46,7 +46,7 @@
                          data-easing="Sine.easeOut" data-endspeed="100"><a href="/contact" class="btn btn-large">Связаться</a>
                         </div>
                 </li>
-                <li data-transition="fade"><img src="storage/images/art/slider-bg4.jpg" alt=""
+                <li data-transition="fade"><img src="{{ asset('storage/images/art/slider-bg4.jpg') }}" alt=""
                                                 data-bgposition="center top" data-bgfit="cover"
                                                 data-bgrepeat="no-repeat"/>
                     <div class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800"
@@ -59,7 +59,7 @@
                          data-easing="Sine.easeOut" data-endspeed="100"><a href="/contact" class="btn btn-large">Связаться</a>
                     </div>
                 </li>
-                <li data-transition="fade"><img src="storage/images/art/slider-bg5.jpg" alt=""
+                <li data-transition="fade"><img src="{{ asset('storage/images/art/slider-bg5.jpg') }}" alt=""
                                                 data-bgposition="center top" data-bgfit="cover"
                                                 data-bgrepeat="no-repeat"/>
                     <div class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800"
@@ -131,7 +131,7 @@
                 <!-- /.headline -->
                 <div class="divide30"></div>
                 <figure>
-                    <img style="width: auto;" src="storage/images/branko-exc.png" alt=""/>
+                    <img style="width: auto;" src="{{ asset('storage/images/branko-exc.png') }}" alt=""/>
                 </figure>
             </div>
             <!-- /.thin -->
@@ -154,8 +154,8 @@
                 <div id="grid-container" class="cbp">
 
                     <div class="cbp-item prod"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                          href="storage/images/art/p1.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p1.jpg" alt=""/></div>
+                                                          href="{{ asset('storage/images/art/p1.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p1.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -171,8 +171,8 @@
                     <!--/.cbp-item -->
 
                     <div class="cbp-item prod"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                   href="storage/images/art/p2.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p2.jpg" alt=""/></div>
+                                                   href="{{ asset('storage/images/art/p2.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p2.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -187,8 +187,8 @@
                     <!--/.cbp-item -->
 
                     <div class="cbp-item prod"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                      href="storage/images/art/p3.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p3.jpg" alt=""/></div>
+                                                      href="{{ asset('storage/images/art/p3.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p3.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -203,8 +203,8 @@
                     <!--/.cbp-item -->
 
                     <div class="cbp-item prov"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                 href="storage/images/art/p4.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p4.jpg" alt=""/></div>
+                                                 href="{{ asset('storage/images/art/p4.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p4.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -220,8 +220,8 @@
                     <!--/.cbp-item -->
 
                     <div class="cbp-item prov"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                        href="storage/images/art/p5.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p5.jpg" alt=""/></div>
+                                                        href="{{ asset('storage/images/art/p5.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p5.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -236,8 +236,8 @@
                     <!--/.cbp-item -->
 
                     <div class="cbp-item prod"><a class="cbp-caption fancybox-media" data-rel="portfolio"
-                                                       href="storage/images/art/p6.jpg">
-                            <div class="cbp-caption-defaultWrap"><img src="storage/images/art/p6.jpg" alt=""/></div>
+                                                       href="{{ asset('storage/images/art/p6.jpg') }}">
+                            <div class="cbp-caption-defaultWrap"><img src="{{ asset('storage/images/art/p6.jpg') }}" alt=""/></div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
@@ -263,8 +263,8 @@
     <div class="outer-wrap inverse-wrapper">
         <div id="video-wrap" class="video-wrap">
             <video preload="metadata" playsinline autoplay muted loop id="video-office">
-                <source src="storage/video/branko.mp4" type="video/mp4">
-                <source src="storage/video/branko.webm" type="video/webm">
+                <source src="{{ asset('storage/video/branko.mp4') }}" type="video/mp4">
+                <source src="{{ asset('storage/video/branko.webm') }}" type="video/webm">
             </video>
             <div class="content-overlay container">
                 <div class="headline text-center">
@@ -292,7 +292,7 @@
                             <div class="row">
                                 <div class="col-sm-3 col-md-5">
                                     <figure>
-                                        <img src="storage/images/branko-home.jpg" alt="">
+                                        <img src="{{ asset('storage/images/branko-home.jpg') }}" alt="">
                                     </figure>
                                 </div>
                                 <div class="col-sm-9 col-md-7">

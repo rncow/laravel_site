@@ -25,7 +25,7 @@
                 </ul>
                 <div class="divide50"></div>
                 <div class="form-container">
-                    <form action="contact/send" method="post" class="vanilla vanilla-form" novalidate="novalidate">
+                    <form action="/contact/send" method="post" class="vanilla vanilla-form" novalidate="novalidate">
                         @csrf
                         <div class="row">
                             <div class="col-sm-6">

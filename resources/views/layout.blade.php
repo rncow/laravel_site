@@ -25,8 +25,8 @@
                 <div class="basic-wrapper"> <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
                     <div class="navbar-brand">
                         <a href="/">
-                            <img class="logo-light" src="storage/images/branko.png"  alt="BRANKO" height="50"/>
-                            <img class="logo-dark" src="storage/images/branko-dark.png"  alt="BRANKO" height="50"/>
+                            <img class="logo-light" src="{{ asset('storage/images/branko.png') }}"  alt="BRANKO" height="50"/>
+                            <img class="logo-dark" src="{{ asset('storage/images/branko-dark.png') }}"  alt="BRANKO" height="50"/>
                         </a>
                     </div>
                     <!-- /.navbar-brand -->
@@ -60,7 +60,7 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="widget">
-                <img src="storage/images/branko.svg" alt="BRANKO" height="50">
+                <img src="{{ asset('storage/images/branko.svg') }}" alt="BRANKO" height="50">
                 <div class="divide20"></div>
                 <p>Более 45 лет занимаемся специальным сектором сельского хозяйства, разведением индейки, распространением инкубационных яиц индейки и суточных индюшат.</p>
             </div>
@@ -85,9 +85,9 @@
         © ООО «Бранко Рус», 2021. Coded by <a href="http://it-pskov.ru/">IT Nova</a>.
     </p>
     <ul class="footer-menu pull-right">
-        <li><a href="https://brankorus.ru">О нас</a></li>
-        <li><a href="https://brankorus.ru/pages/incubation">Инкубирование</a></li>
-        <li><a href="https://brankorus.ru/contact">Контакты</a></li>
+        <li><a href="/">О нас</a></li>
+        <li><a href="/incubation">Инкубирование</a></li>
+        <li><a href="/contact">Контакты</a></li>
         <li><a href="https://brankorus.ru/login">Войти</a></li>
     </ul>
 </div>
