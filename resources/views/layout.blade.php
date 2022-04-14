@@ -24,7 +24,7 @@
             <div class="navbar-header">
                 <div class="basic-wrapper"> <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
                     <div class="navbar-brand">
-                        <a href="">
+                        <a href="/">
                             <img class="logo-light" src="storage/images/branko.png"  alt="BRANKO" height="50"/>
                             <img class="logo-dark" src="storage/images/branko-dark.png"  alt="BRANKO" height="50"/>
                         </a>

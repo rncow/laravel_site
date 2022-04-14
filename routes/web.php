@@ -17,6 +17,8 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'about']);
 
+Route::get('/incubation', [MainController::class, 'incubation']);
+
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
 
 Route::post('/contact/send', [SendMail::class, 'store']);
